@@ -22,6 +22,9 @@ public class a04_Buffer {
  *          //InputStreamReader irs = new InputStreamReader(fin);
  *          //BufferedReader br = new BufferedReader(irs);
  *
+ *          // 接成一條管子 所以關哪一條 都可以 (整條就關起來了)
+ *          // br.close();
+ *
  */
             // 真正的寫法
             BufferedReader br =

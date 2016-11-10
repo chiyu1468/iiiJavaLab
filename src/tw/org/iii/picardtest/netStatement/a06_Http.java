@@ -1,6 +1,5 @@
 package tw.org.iii.picardtest.netStatement;
 
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -24,6 +23,7 @@ public class a06_Http {
                     new BufferedReader(
                             new InputStreamReader(
                                     httpUrlC.getInputStream()));
+
 
             String line;
             while ((line = br.readLine()) != null){

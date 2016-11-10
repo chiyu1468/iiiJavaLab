@@ -1,12 +1,13 @@
-package tw.org.iii.picardtest;
+package tw.org.iii.picardtest.netStatement;
 
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-// Server - 傳圖片 (切成一段段)
-public class TCP_Receiver {
+// Server - 收圖片 ()
+public class a05_TCP_ServerB {
+
     public static void main(String[] agrs){
         try {
             // 1.製作插座

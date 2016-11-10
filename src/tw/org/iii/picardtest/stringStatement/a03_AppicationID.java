@@ -1,7 +1,5 @@
 package tw.org.iii.picardtest.stringStatement;
 
-import java.lang.reflect.Array;
-import java.lang.reflect.Constructor;
 
 public class a03_AppicationID {
 
@@ -41,7 +39,6 @@ public class a03_AppicationID {
 
     public a03_AppicationID() {
         this(((int)(Math.random()*2)==0?true:false),LeadingLetter.charAt((int)(Math.random()*26)));
-
     }
 
 

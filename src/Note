@@ -1,4 +1,65 @@
 
+上課進度:
+varible
+    - 介紹變數
+
+ifstatement
+    - 輸入輸出 對話框 (a01_LAB)
+    - a++ ++a 觀念 (a02_Lab)
+    - 萬年曆 (a03_switch)
+
+forstatement
+    - 九九乘法表 a02_Lab
+
+arraystatement
+    - 陣列
+   D- 洗牌程式
+
+ObjectOriented
+    - class & instance & 物件實體 簡介 (a01)
+    - Constructor 宣告法 (a02)
+    - 視窗嘗鮮 之後會講更多 看看就好 (a04)
+    - 重要概念 : class 繼承與 Constructor 關係與運用 (a03)
+    - 重要概念 : initialization block (a05) -- 這邊可能要先看完 abstractStatement 才會懂
+
+abstractStatement
+    - 介紹 abstract class 與 extends(繼承)概念
+    - 介紹 static(class level) & non-static(instance level)
+    - 介紹 interface 與 implements 概念
+   D- 文字編輯器 (透過 interface 讓物件互相交互作用  PS. 還有功能要做 捲軸)
+
+stringStatement
+[ java.lang/string ]
+    - string 類別介紹 (建議多看API)
+    - equals & toString 介紹 (Override)
+    - 身分證字號產生器 (重要 a03_AppicationID ＆ a03_exe)
+      類別內 Constructor 撰寫方式
+    - 猜數字 (charAt & indexOf)
+
+exceptionStatement
+[ Exceptions ]
+    - 重要概念:exception (多看API)
+
+IO_directory
+[ java.io ]
+    - 資料夾的路徑 增刪修查
+
+IO_context
+    - 資料串流
+    - 用 FileInputStream 讀取檔案
+    - 用 FileReader 讀取文字檔案
+    - 用 FileOutputStream 寫檔案
+    - 用 BufferedReader 比較優雅的讀取檔案
+
+
+netStaStatement
+    -
+
+
+
+
+
+ * ========================================================
  * HomeWork
  * 1. PHP JS 的 變數命名法則
  *      PHP : ^$[A-Za-z_]+[A-Za-z0-9_]*

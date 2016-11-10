@@ -3,8 +3,8 @@ package tw.org.iii.picardtest.ObjectOriented;
 public class a01_Bike {
     // Member: 成員 > 屬性 / 方法
     // 變數範圍:
-    // public > protected > "NONE" > private
-    // 全世界  > 同pack &繼承子類 > 同pack > 只有該類別
+    // public > protected       > "NONE"  > private
+    // 全世界  > 同pack & 繼承子類 > 同pack  > 只有該類別
     char owner;
     int weight;
     private double speed;

@@ -2,24 +2,21 @@ package tw.org.iii.picardtest.ObjectOriented;
 
 public class a03_Bike {
 
-    a03_Bike(){
-        System.out.println("Hello Bike");
-    }
-    a03_Bike(int year){
-        System.out.println("Hello Bike" + year);
-    }
 
-
-
-
-
-    // Member: 成員 > 屬性 / 方法
-    // 變數範圍:
-    // public > protected > "NONE" > private
-    // 全世界  > 同pack &繼承子類 > 同pack > 只有該類別
     char owner;
     int weight;
     private double speed;
+
+
+    a03_Bike(){
+        weight = 10;
+        System.out.println("I'm Bike");
+    }
+
+    a03_Bike(int year){
+        System.out.println("I'm Old Bike from : " + year);
+    }
+
 
     // 方法名稱雖然一樣，依照變數的型別、數量不同，可以識別為不同的東西
     void SpeedUp(){

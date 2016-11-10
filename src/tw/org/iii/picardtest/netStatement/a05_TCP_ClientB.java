@@ -5,13 +5,13 @@ import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
 
-public class TCP_Tx_Pic01 {
-
+// Client - 傳圖片 (切成一段段)
+public class a05_TCP_ClientB {
     public static void main(String[] agrs){
         long time = System.currentTimeMillis();
         try {
             // 1. 製作插座
-            Socket cSocket = new Socket(InetAddress.getByName("10.2.24.130"),9999);
+            Socket cSocket = new Socket(InetAddress.getByName("127.0.0.1"),9999);
 
             // 3. 外管建立
             OutputStream out = cSocket.getOutputStream();
@@ -37,5 +37,3 @@ public class TCP_Tx_Pic01 {
         } catch (Exception e) {System.out.println("Client :" + e.toString());}
     }
 }
-
-

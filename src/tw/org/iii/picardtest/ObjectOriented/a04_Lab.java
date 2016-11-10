@@ -30,8 +30,6 @@ public class a04_Lab extends JFrame{
             }
         });
 
-
-
         setVisible(true);
     }
 
@@ -40,6 +38,6 @@ public class a04_Lab extends JFrame{
     // 程式進入點
     public static void main(String[] args){
         // new 出一個 a04_Lab 物件實體
-        a04_Lab a04 = new a04_Lab();
+        new a04_Lab();
     }
 }

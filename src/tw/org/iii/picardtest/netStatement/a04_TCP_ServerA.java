@@ -1,7 +1,5 @@
 package tw.org.iii.picardtest.netStatement;
 
-
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -9,7 +7,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 // Server - 傳文字
-public class TCP_Receiver {
+public class a04_TCP_ServerA {
+
     public static void main(String[] agrs){
         try {
             ServerSocket server = new ServerSocket(9999);

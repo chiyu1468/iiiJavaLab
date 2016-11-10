@@ -23,7 +23,7 @@ public class a01_Lab {
         for (int j=0;j<5;j++) {
             System.out.println(j);
         }
-        // 就只能在for裡面用
+        // 就只能在for裡面看的到j
         //System.out.println(j);
 
     }

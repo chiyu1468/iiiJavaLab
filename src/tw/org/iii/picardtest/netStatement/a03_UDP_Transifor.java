@@ -4,12 +4,13 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
-public class UDP_Transifor {
+public class a03_UDP_Transifor {
     public static void main(String[] agrs) {
 
-        String message = "123456";
+        String message = "哈囉~";
         byte[] data = message.getBytes();
-        System.out.println(message);
+        System.out.println(data.toString());
+
 
         try {
             // 建立插座 (要傳送出去 port 不重要)
