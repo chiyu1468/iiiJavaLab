@@ -1,0 +1,67 @@
+
+ * HomeWork
+ * 1. PHP JS 的 變數命名法則
+ *      PHP : ^$[A-Za-z_]+[A-Za-z0-9_]*
+ *      JS  :
+ * 2. 1~100 找質數 (可以用PHP寫)
+ * 3. Shuffle
+ * 4. 萬年曆 1752/09
+ * 5. 手機號碼 正規表示
+ *    用 java 驗證 IPv4
+ * 6. 身分證完成
+ *
+ * 7.
+ * 8. TCP 傳送
+ *
+ * 9.
+ *
+ * ======================================================
+ *
+ *
+ * println() --> 換行
+ * println() --> 不換行
+ *
+ * 字串裡面 \t --> tab鍵
+ *
+ * ==================================================
+ * API 裡面的東西
+ * 重要
+ * java.net 網路
+ * java.io  檔案
+ * java.sql 資料庫
+ * java.text
+ * java.util 工具
+ * java.lang
+ *
+ * 視窗 (看看就好)
+ * java.awt  --> javax.swing
+ *
+ * 小注意:
+ * Deprecated : 目前可以使用 可是以後版本可能不支援
+ *
+ * 因為字串只要變動 就會生成新的物件
+ * 所以如果字串一直有在更新 不要用 String 要用以下兩個
+ * java.lang
+ *  - StringBuffer (重安全/穩定性)
+ *  - StringBuilder (重效率)
+ *
+ *
+ * Serialization (序列化)
+ * 對戰遊戲 可以將人物的物件實體 丟給對方
+ * java.io
+ *  - DataInputStream
+ *  - DataOutputStream
+ *  - ObjectInputStream
+ *  - ObjectOutputStream
+ *
+ *
+ * java.net
+ *
+ *
+ *
+ *
+ * https://www.unrealengine.com/what-is-unreal-engine-4
+ * https://libgdx.badlogicgames.com/
+ * http://www.cocos2d-x.org/
+ * https://unity3d.com/cn/
+ *

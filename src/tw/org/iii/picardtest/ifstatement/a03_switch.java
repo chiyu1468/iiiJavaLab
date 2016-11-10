@@ -37,8 +37,6 @@ public class a03_switch {
                 } else {
                     System.out.println("28");
                 }
-
-
                 break;
         }
 

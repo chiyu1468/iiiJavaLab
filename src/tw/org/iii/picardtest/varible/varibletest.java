@@ -3,7 +3,7 @@ package tw.org.iii.picardtest.varible;
 public class varibletest {
     public static void main(String[] Variabletest1) {
 
-        // integer : byte[8] , short[16] , int[32] , long[64]
+        // integer : byte[8]255 , short[16]65535 , int[32] , long[64]
         // 變數名稱命名規定 : [a-zA-Z$_][a-zA-Z0-9$_]*
         byte ___ = 1;
         System.out.println(___);
