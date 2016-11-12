@@ -1,4 +1,4 @@
-package tw.org.iii.picardtest;
+package tw.org.iii.picardtest.DataStructure_ListAndSet;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,7 +12,7 @@ import java.util.LinkedList;
 public class a03_SignZone extends JPanel implements MouseMotionListener{
 
     // 運用泛型幫助我們定義
-    private LinkedList<HashMap<String,Integer>> line;
+    private LinkedList<HashMap<String,Integer>> line = new LinkedList<>();
 
     public a03_SignZone(){
         System.out.println("SignZone");
@@ -22,7 +22,7 @@ public class a03_SignZone extends JPanel implements MouseMotionListener{
     @Override
     public void mouseDragged(MouseEvent e) {
         int X = e.getX(), Y = e.getY();
-//        System.out.println("(" + X + "," + Y + ")"); // debug use
+        System.out.println("(" + X + "," + Y + ")"); // debug use
         HashMap<String,Integer> point = new HashMap<>();
         point.put("x",X);point.put("y",Y);
         line.add(point);

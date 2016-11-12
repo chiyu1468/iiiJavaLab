@@ -1,4 +1,4 @@
-package tw.org.iii.picardtest;
+package tw.org.iii.picardtest.DataStructure_ListAndSet;
 
 
 import java.util.HashSet;
@@ -22,7 +22,7 @@ public class a01_Lab {
 
         // 輸出看看剛剛丟的東西變成怎樣
         // 看看有沒有順序性 跟 會不會重複
-        System.out.println(set);
+        System.out.println("HashSet : " + set);
         System.out.println("==============分隔線================");
 
 
@@ -32,7 +32,8 @@ public class a01_Lab {
         while (set2.size() <= 6 ){
             set2.add((int)(Math.random()*49+1));
         }
-        System.out.println(set2.toString());
+        System.out.println("TreeSet : " + set2);
+//        System.out.println(set2.toString());
         System.out.println("==============分隔線================");
 
         LinkedList list = new LinkedList();
@@ -41,7 +42,7 @@ public class a01_Lab {
         list.add(12);
         list.add(true);
         list.add(45.6);
-        System.out.println(list.toString());
+        System.out.println("LinkedList : " + list.toString());
         System.out.println("==============分隔線================");
 
         LinkedList list2 = new LinkedList();
