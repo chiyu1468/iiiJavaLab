@@ -55,8 +55,18 @@ IO_context
 netStaStatement
     -
 
+phpInteraction
+    -
+
+DataStructure_List&Set
+    -
 
 
+threadStatement
+    - 特別注意 Thread 時間精準度不高
+
+timerStatement
+    - 時間 Timer 在掌握 事情 TimerTask 再處理
 
 
  * ========================================================
@@ -74,7 +84,8 @@ netStaStatement
  * 7.
  * 8. TCP 傳送
  *
- * 9.
+ * 9. 賽柴柴
+ * 10. 電子手表 (時鐘型的 + 碼錶)
  *
  * ======================================================
  *
@@ -119,6 +130,8 @@ netStaStatement
  * java.net
  *
  *
+ *
+ * 無抽象類別的抽象方法 => 用在多型
  *
  *
  * https://www.unrealengine.com/what-is-unreal-engine-4

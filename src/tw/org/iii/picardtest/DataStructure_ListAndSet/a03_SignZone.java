@@ -12,12 +12,14 @@ import java.util.LinkedList;
 public class a03_SignZone extends JPanel implements MouseMotionListener{
 
     // 運用泛型幫助我們定義
+    //      一條線 -----> 裡面有很多點
     private LinkedList<HashMap<String,Integer>> line = new LinkedList<>();
 
     public a03_SignZone(){
         System.out.println("SignZone");
         addMouseMotionListener(this);
     }
+
 
     @Override
     public void mouseDragged(MouseEvent e) {
@@ -28,7 +30,6 @@ public class a03_SignZone extends JPanel implements MouseMotionListener{
         line.add(point);
         repaint();
     }
-
     @Override
     public void mouseMoved(MouseEvent e) {} // Do Nothing
 
@@ -38,7 +39,11 @@ public class a03_SignZone extends JPanel implements MouseMotionListener{
     // 新一代的
     @Override
     protected void paintComponent(Graphics g) {
+
+        // 繼承 所以要變更好
         super.paintComponent(g);
+
+        // 計算觸發次數
         peack++; System.out.println("paintComponent( " + peack + " )");
 
         // Graphics 在 java.awt 很基礎陽春的畫布工具
@@ -50,7 +55,7 @@ public class a03_SignZone extends JPanel implements MouseMotionListener{
         // 畫筆顏色
         g2d.setColor(Color.RED);
         // 粗細
-        g2d.setStroke(new BasicStroke(2));
+        g2d.setStroke(new BasicStroke(3));
         // 畫圓
         g2d.drawOval(100,100,6,6);
         g2d.fillOval(100,200,6,6);
