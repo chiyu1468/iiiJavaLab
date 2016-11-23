@@ -30,9 +30,6 @@ public class a03_UDP_Receiver {
             System.out.println(message.toString());
 
 
-
-
-
         } catch (Exception e) {
             System.out.println("Error : " + e.toString());
         }

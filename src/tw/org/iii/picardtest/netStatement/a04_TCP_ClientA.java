@@ -34,11 +34,6 @@ public class a04_TCP_ClientA {
 
 
 
-
-
-
-
-
             cSocket.close();
             System.out.println("OK");
         } catch (Exception e) {
